@@ -9,7 +9,9 @@ environment:
 
 dependencies:
   open_iconic_flutter: ">=0.3.0 <0.4.0"
-  video_player: ">=0.7.0 <0.11.0"
+  video_player: 
+    git:
+      url: git://github.com/aidandavis/flutter_video_player_fork.git
   wakelock: ">=0.1.2 <0.2.0"
 
   flutter:
